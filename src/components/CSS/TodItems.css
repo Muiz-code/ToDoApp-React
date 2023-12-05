@@ -1,0 +1,22 @@
+.todoItems {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0px;
+}
+.todoItemsContainer {
+  display: flex;
+}
+.todoItemsText {
+  padding-left: 16px;
+  color: #404040;
+  font-size: 18px;
+}
+.todoCancel {
+  cursor: pointer;
+  padding-right: 25px;
+  font-size: 25px;
+}
+
+.line-through {
+  text-decoration: line-through solid #504d4d 3px;
+}
