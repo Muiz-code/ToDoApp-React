@@ -47,3 +47,12 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+@media (max-width: 500px) {
+  .todo {
+    width: 250px;
+  }
+  .todoAddBtn {
+    margin-left: -60px;
+  }
+}
